@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lista de tarefas  </title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body>
+    
+    <div id="task-conteiner">
+
+        <div id="task-header">
+            <h2> Adicione a sua proxima tarefa </h2>
+            <form action="" id="add-task-form">
+                <input type="text" id="task-title"  placeholder="Insira sua proxima tarefa aqui" >
+                <button id="add-btn" type="submit"> + </button>
+            </form>
+        </div>
+        <div id="task-list-conainer">
+            <h2> Essas são as suas tarefas </h2>
+            <ul  id="task-list">
+                <li class="task-box template hide">
+                    <span class="task-title"></span>
+                    <button id="done-btn">✔</button>
+                    <button id="remove-btn">✖</button>
+                </li>
+                
+
+            </ul>
+        </div>
+    </div>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
